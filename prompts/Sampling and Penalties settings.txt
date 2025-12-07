@@ -1,0 +1,12 @@
+Sampling
+
+temp = 0.3
+top_k=30
+top_p=0.85
+min_p=0.05
+
+Penalties
+
+Repeat penalty = 1.1
+Presence penalty = 0.2
+Frequency penalty = 0.2
