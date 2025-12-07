@@ -10,3 +10,11 @@ Penalties
 Repeat penalty = 1.1
 Presence penalty = 0.2
 Frequency penalty = 0.2
+
+
+These settings make the LLM stick to safer, more predictable answers instead of getting creative or weird:
+
+- Temperature (0.3): Low value = more focused, deterministic outputs
+- top_k (30) & top_p (0.85): Limit token choices to the most probable ones
+- min_p (0.05): Sets a minimum probability threshold for token consideration
+- Penalties (1.1, 0.2, 0.2): Discourage repetition and promote diversity in word choice
