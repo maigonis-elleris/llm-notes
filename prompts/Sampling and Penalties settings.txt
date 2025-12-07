@@ -1,9 +1,9 @@
 Sampling
 
 temp = 0.3
-top_k=30
-top_p=0.85
-min_p=0.05
+top_k= 30
+top_p= 0.85
+min_p= 0.05
 
 Penalties
 
